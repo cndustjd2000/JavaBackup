@@ -3,7 +3,7 @@ package com.human.ex;
 public class JavaStart00 {
 
 	public static void main(String[] args) {
-		//프로그램을 만든다는 것은 프로그램 언어로 알고리즘(문제 해결방법)을 작성하는 것이다
+		/*//프로그램을 만든다는 것은 프로그램 언어로 알고리즘(문제 해결방법)을 작성하는 것이다
 		//Data + 처리 = 알고리즘
 		int a=0;
 		System.out.println(a);
@@ -39,7 +39,7 @@ public class JavaStart00 {
 		
 		boolean isFlag=false;
 		if(true) {
-			int a=5;
+			int a=5;*/
 			
 	}
 }

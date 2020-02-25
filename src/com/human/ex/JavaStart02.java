@@ -3,7 +3,7 @@ package com.human.ex;
 public class JavaStart02 {
 
 	public static void main(String[] args) {
-		System.out.println("집 앞 버스정류장으로 간다.");
+		/*System.out.println("집 앞 버스정류장으로 간다.");
 		System.out.println("12번 버스인가?");
 		while (true) {
 			System.out.println("12번 버스를 기다린다.");
@@ -40,7 +40,7 @@ public class JavaStart02 {
 			System.out.println("집으로 간다.");
 		}
 		System.out.println("집으로 간다.");
-		
+		*/
 		
 		
 

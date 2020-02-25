@@ -24,7 +24,7 @@ public class JavaStart03 {
 		
 		//
 		
-		System.out.println("숫자를 입력하시오.");
+		/*System.out.println("숫자를 입력하시오.");
 		System.out.println("입력한 숫자가 0보다 큰가?");
 		String str4=sc.nextLine();
 		int a=Integer.parseInt(str4);
@@ -32,7 +32,7 @@ public class JavaStart03 {
 			int a=1;
 		}
 		int a=-1;
-		System.out.println(a);
+		System.out.println(a);*/
 		
 	}
 }
