@@ -14,14 +14,8 @@ public class JavaStart7 {
 	
 		
 		//특정 문자열을 반복해서 출력할 수 있는 순서도 작성	
-		java.util.Scanner sc=new java.util.Scanner(System.in);
-		System.out.println("안녕하세요를 입력하세요.");
-		String str=sc.nextLine();
-		if (false) {
-			
-		}else {
-			
-		}
+		//Count=0
+		
 		
 	}
 }
