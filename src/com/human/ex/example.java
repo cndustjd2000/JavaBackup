@@ -72,62 +72,64 @@ public class example {
 		//int a=ran.nextInt(5); >>0~4까지 출력
 		//int a=ran.nextInt(5)+5; >>5~9까지 출력
 		
-		/*System.out.println("가위 바위 보.");
-		System.out.println("0 : 가위, 1 : 바위, 2 : 보");
 		
-		System.out.println("본인이 낼 숫자를 입력하시오.");
-		int a=Integer.parseInt(sc.nextLine());
-		
-		switch(a) {
-			case 0:{
-				System.out.println("가위를 내셨습니다.");
-				break;
-			}
-			case 1:{
-				System.out.println("바위를 내셨습니다.");
-				break;
-			}
-			case 2:{
-				System.out.println("보를 내셨습니다.");
-				break;
-			}
-		}
-		
-		int a1=ran.nextInt(3);
-		System.out.println("컴퓨터가 낸 숫자는 "+a1);
-		
-		
-		switch(a1) {
-			case 0:{
-				System.out.println("컴퓨터는 가위를 냈습니다.");
-				break;
-			}
-			case 1:{
-				System.out.println("컴퓨터는 바위를 냈습니다.");
-				break;
-			}
-			case 2:{
-				System.out.println("컴퓨터는 보를 냈습니다.");
-				break;
+		for(int i=0;i<10;i++) {
+			System.out.println("가위 바위 보.");
+			System.out.println("0 : 가위, 1 : 바위, 2 : 보");
+			
+			System.out.println("본인이 낼 숫자를 입력하시오.");
+			int a=Integer.parseInt(sc.nextLine());
+			
+			switch(a) {
+				case 0:{
+					System.out.println("가위를 내셨습니다.");
+					break;
 				}
-		
+				case 1:{
+					System.out.println("바위를 내셨습니다.");
+					break;
+				}
+				case 2:{
+					System.out.println("보를 내셨습니다.");
+					break;
+				}
 			}
-		
-		if(a==a1) {
-			System.out.println("비겼습니다.");
-		}
-		if(a>a1) {
-			System.out.println("당신이 이겼습니다.");
-		}
-		if(a==0&&a1==2){
-			System.out.println("당신이 이겼습니다.");
-		}else {
-			if(a<a1) {
-				System.out.println("당신이 졌습니다.");
+			
+			int a1=ran.nextInt(3);
+			System.out.println("컴퓨터가 낸 숫자는 "+a1);
+			
+			
+			switch(a1) {
+				case 0:{
+					System.out.println("컴퓨터는 가위를 냈습니다.");
+					break;
+				}
+				case 1:{
+					System.out.println("컴퓨터는 바위를 냈습니다.");
+					break;
+				}
+				case 2:{
+					System.out.println("컴퓨터는 보를 냈습니다.");
+					break;
+					}
+			
+				}
+			
+			if(a==a1) {
+				System.out.println("비겼습니다.");
+			}
+			if(a>a1) {
+				System.out.println("당신이 이겼습니다.");
+			}
+			if(a==0&&a1==2){
+				System.out.println("당신이 이겼습니다.");
+			}else {
+				if(a<a1) {
+					System.out.println("당신이 졌습니다.");
+				}
 			}
 		}
 		
-		*/
 		
 		boolean isDay=true;//낮이면 true
 		boolean isStar=true;//true일 때 별 그리기
@@ -433,27 +435,27 @@ public class example {
 		
 		System.out.println("무작위 숫자 3개를 입력하시오.");
 		
-		int a=Integer.parseInt(sc.nextLine());
+		int a11=Integer.parseInt(sc.nextLine());
 		int b=Integer.parseInt(sc.nextLine());
 		int c=Integer.parseInt(sc.nextLine());
 
-		if(a>b&&a>c) {
+		if(a11>b&&a11>c) {
 			if(b>c) {
-				System.out.println("가장 큰 수는 "+a+" 그 다음은 "+b+" 그 다음은 "+c);
+				System.out.println("가장 큰 수는 "+a11+" 그 다음은 "+b+" 그 다음은 "+c);
 			}else if(c>b) {
-				System.out.println("가장 큰 수는 "+a+" 그 다음은 "+c+" 그 다음은 "+b);
+				System.out.println("가장 큰 수는 "+a11+" 그 다음은 "+c+" 그 다음은 "+b);
 			}
-		}else if(b>a&&b>c){
-			if(a>c) {
-				System.out.println("가장 큰 수는 "+b+" 그 다음은 "+a+" 그 다음은 "+c);
-			}else if(c>a) {
-				System.out.println("가장 큰 수는 "+b+" 그 다음은 "+c+" 그 다음은 "+a);
+		}else if(b>a11&&b>c){
+			if(a11>c) {
+				System.out.println("가장 큰 수는 "+b+" 그 다음은 "+a11+" 그 다음은 "+c);
+			}else if(c>a11) {
+				System.out.println("가장 큰 수는 "+b+" 그 다음은 "+c+" 그 다음은 "+a11);
 			}
-		}else if(c>a&&c>b) {
-			if(a>b) {
-				System.out.println("가장 큰 수는 "+c+" 그 다음은 "+a+" 그 다음은 "+b);
-			}else if(b>a) {
-				System.out.println("가장 큰 수는 "+c+" 그 다음은 "+b+" 그 다음은 "+a);
+		}else if(c>a11&&c>b) {
+			if(a11>b) {
+				System.out.println("가장 큰 수는 "+c+" 그 다음은 "+a11+" 그 다음은 "+b);
+			}else if(b>a11) {
+				System.out.println("가장 큰 수는 "+c+" 그 다음은 "+b+" 그 다음은 "+a11);
 			}
 		}
 		
